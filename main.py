@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 GROUP_SIZE = 1000
-USER_BASE = "users.xlsx"
+USER_BASE = "users.xlsx"  # file with all users
 
 bot = telebot.TeleBot(os.environ["TOKEN"])
 
